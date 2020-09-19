@@ -38,6 +38,8 @@ public class Demo {
         driver.findElement(By.xpath("//input[contains(@data-testid='login')]")).click();
         System.out.println(driver.findElement(By.xpath("//div[@class='_4rbf _53ij']")).getText());
 
+        System.out.println("end of test!");
+
     }
 
     //Create Driver object for Chrome browser
